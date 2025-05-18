@@ -1,7 +1,7 @@
 import streamlit as st 
 import joblib
 
-vectorizer = joblib.load("Vectorizer.jb")
+vectorizer = joblib.load("vectorizer.jb")
 model = joblib.load("gbc_model.jb")
 
 st.title("Fake News Detector")
